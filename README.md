@@ -148,10 +148,10 @@ This link will also work - https://www.google.com.
 ### Inline-style: 
 
 ```
-![alt text](https://www.mozilla.org/media/protocol/img/logos/mozilla/white.svg "Inline")
+![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Inline")
 ```
 
-![alt text](https://www.mozilla.org/media/protocol/img/logos/mozilla/white.svg "Inline")
+![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Inline")
 
 
 ### Referenced like a variable: 
@@ -159,22 +159,22 @@ This link will also work - https://www.google.com.
 ```
 ![alt text][logo]
 
-[logo]: https://www.mozilla.org/media/protocol/img/logos/mozilla/white.svg "Referenced"
+[logo]: https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Referenced"
 ```
 
 ![alt text][logo]
 
-[logo]: https://www.mozilla.org/media/protocol/img/logos/mozilla/white.svg "Referenced"
+[logo]: https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Referenced"
 
 
 
 ### An image link:
 
 ```
-[![alt text](https://www.mozilla.org/media/protocol/img/logos/mozilla/white.svg "Image link")](https://www.mozilla.org/)
+[![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Image link")](https://unsplash.com/)
 ```
 
-[![alt text](https://www.mozilla.org/media/protocol/img/logos/mozilla/white.svg "Image link")](https://www.mozilla.org/)
+[![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Image link")](https://unsplash.com/)
 
 
 &nbsp;
