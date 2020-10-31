@@ -1,8 +1,22 @@
 # Markdown Cheatsheet for VS Code
 
+
+## Index
+- [Headings](#headings)
+- [Paragraph](#paragraph)
+- [Emphasis](#emphasis)
+- [Lists](#lists)
+- [Links](#links)
+- [Images](#images)
+- [Code](#code)
+- [Other Elements](#other-elements)
+- [Blockquotes](#blockquotes)
+- [Tables](#tables)
+
+
 &nbsp;
 ## **Background**
----
+
 
 This cheatsheet can be used when writing Markdown in Visual Studio Code.
 
@@ -17,7 +31,6 @@ To use markdown in VS Code:
 
 &nbsp;
 ## **Headings**
----
 
 The following markdown represents the standard HTML `<h1>` to `<h6>` elements.  Short notation is to use `#`, but you can also hardcode the heading tags: 
 
@@ -45,17 +58,35 @@ The following markdown represents the standard HTML `<h1>` to `<h6>` elements.  
 
 &nbsp;
 ## **Paragraph**
----
 
+### A plain paragraph
 ```
 Just a plain paragraph, nothing special here.
 ```
 Just a plain paragraph, nothing special here.  
 
+&nbsp;
+### An empty line
+
+```
+An empty line:
+&nbsp;
+```
+An empty line:
+&nbsp;
+
+&nbsp;
+### A horizontal line
+```
+---
+```
+
+---
+
+
 
 &nbsp;
 ## **Emphasis**
----
 
 ```
 **Bold**
@@ -77,7 +108,6 @@ _Italic_
 
 &nbsp;
 ## **Lists**
----
 
 ### Ordered List (use numbers)
 
@@ -122,7 +152,6 @@ _Italic_
 
 &nbsp;
 ## **Links**
----
 
 ### Named hyperlink
 ```
@@ -131,21 +160,26 @@ _Italic_
 
 [Google](https://www.google.com)
 
+&nbsp;
 ### Automatically converted links
-
 ```
 This link will also work - https://www.google.com.
 ```
 
 This link will also work - https://www.google.com.
 
+&nbsp;
+### Anchor links
+```
+[Index](#index)
+```
+[Index](#index)
 
 
 &nbsp;
 ## **Images**
----
 
-### Inline-style: 
+### Inline-style
 
 ```
 ![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Inline")
@@ -154,7 +188,8 @@ This link will also work - https://www.google.com.
 ![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Inline")
 
 
-### Referenced like a variable: 
+&nbsp;
+### Referenced like a variable
 
 ```
 ![alt text][logo]
@@ -167,8 +202,8 @@ This link will also work - https://www.google.com.
 [logo]: https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Referenced"
 
 
-
-### An image link:
+&nbsp;
+### An image link
 
 ```
 [![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Image link")](https://unsplash.com/)
@@ -179,9 +214,8 @@ This link will also work - https://www.google.com.
 
 &nbsp;
 ## **Code**
----
 
-### Inline code:
+### Inline code
 
 ```
 Remember to use the appropriate `<h1>` heading.
@@ -190,7 +224,7 @@ Remember to use the appropriate `<h1>` heading.
 Remember to use the appropriate `<h1>` heading.
 
 &nbsp;
-### Code blocks:
+### Code blocks
 Basic code block without syntax highlighting by using three backtics ```` ``` ```` before and after your codeblock.
 
 ````
@@ -207,10 +241,9 @@ Basic code block without syntax highlighting by using three backtics ```` ``` ``
 </div>
 ```
 
-
 &nbsp;
-## **Code - Syntax Highlighting**
----
+### Syntax Highlighting
+
 
 Merely add your language after the backticks to enable syntax highlighting, e.g.
 
@@ -230,6 +263,7 @@ Merely add your language after the backticks to enable syntax highlighting, e.g.
 </div>
 ```
 
+&nbsp;
 ### javascript
 
 ````
@@ -248,6 +282,7 @@ numbers.forEach( number => {
 });
 ```
 
+&nbsp;
 ### Ruby
 
 ````
@@ -266,37 +301,38 @@ end
 
 
 &nbsp;
-## **Other Elements — abbr, sub, sup, kbd, mark**
----
+## **Other Elements**
 
-### Abbreviations:
+### Abbreviations
 ```
 <abbr title="Laugh Out Loud">LOL</abbr> is short for... (hover your mouse over the abbreviation).
 ```
 
 <abbr title="Laugh Out Loud">LOL</abbr> is short for... (hover your mouse over the abbreviation).
 
-### Subscript:
+&nbsp;
+### Subscript
 ```
 H<sub>2</sub>O
 ```
 H<sub>2</sub>O
 
-### Supercript:
+&nbsp;
+### Supercript
 ```
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 ```
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-
-### Keyboard keys:
+&nbsp;
+### Keyboard keys
 ```
 Press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd> to end the session.
 ```
 Press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd> to end the session.
 
-
-### Highlights:
+&nbsp;
+### Highlights
 ```
 One can <mark>highlight text</mark> in markdown. 
 ```
@@ -307,7 +343,6 @@ One can <mark>highlight text</mark> in markdown.
 
 &nbsp;
 ## **Blockquotes**
----
 
 #### Blockquote without attribution
 
@@ -317,7 +352,7 @@ One can <mark>highlight text</mark> in markdown.
 
 > It is a miracle that curiosity survives formal education.
 
-
+&nbsp;
 #### Blockquote with attribution
 
 ```
@@ -333,7 +368,7 @@ One can <mark>highlight text</mark> in markdown.
 
 &nbsp;
 ## **Tables**
----
+
 Tables are designated by `|` (pipe character).  There are a few things to note:
 * alignment for the column is designated by `:` (colon).
 * If no colon is specified, it will default to left alignment.
@@ -358,4 +393,3 @@ _Italic_ | `inline code` | **Bold**
 | left | center| right |
 1 | 2 | 3
 _Italic_ | **Bold** | `<div>`
-
