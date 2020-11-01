@@ -383,7 +383,7 @@ Tables are designated by `|` (pipe character).  There are a few things to note:
 | left          | center        | right     |
 | left | center| right |
 1 | 2 | 3
-_Italic_ | `inline code` | **Bold**
+_Italic_ | **Bold** | `<div>`
 ```
 
 
