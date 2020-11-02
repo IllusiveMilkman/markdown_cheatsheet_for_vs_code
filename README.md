@@ -17,9 +17,13 @@
 &nbsp;
 ## **Background**
 
+This cheatsheet can be used as a reference for writing Markdown in Visual Studio Code.
 
-This cheatsheet can be used when writing Markdown in Visual Studio Code.
+Recently, I started taking coding notes in VS Code, using Markdown.  It allows me to focus on the content and code without becomming bogged down with style or syntax highlighting.  I'm sure there are other mechanisms, but this one works for me.
 
+Since the result of your notes is a file or set of files, you can then save however you prefer, like in cloud storage or even a private Github repository.
+
+### Setup
 To use markdown in VS Code:
 1. Install the `markdownlint` extension.
 2. Create a new file and save with the `.md` extension.
