@@ -179,6 +179,14 @@ This link will also work - https://www.google.com.
 ```
 [Index](#index)
 
+&nbsp;
+### Relative links
+```
+[The relative.md file](relative.md)
+```
+[The relative.md file](relative.md)
+
+
 
 &nbsp;
 ## **Images**
