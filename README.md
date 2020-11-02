@@ -191,37 +191,30 @@ This link will also work - https://www.google.com.
 &nbsp;
 ## **Images**
 
-### Inline-style
+Below are examples of images generated from full URL paths or relative paths:
 
-```
-![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Inline")
-```
-
-![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Inline")
-
-
-&nbsp;
-### Referenced like a variable
-
-```
-![alt text][logo]
-
-[logo]: https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Referenced"
-```
-
-![alt text][logo]
-
-[logo]: https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Referenced"
-
-
-&nbsp;
 ### An image link
 
 ```
-[![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Image link")](https://unsplash.com/)
+[![alt text](https://source.unsplash.com/random/100x100 "Image link")](https://unsplash.com/)
 ```
 
-[![alt text](https://github.com/IllusiveMilkman/markdown_cheatsheet_for_vs_code/blob/main/img/lost.png?raw=true "Image link")](https://unsplash.com/)
+[![alt text](https://source.unsplash.com/random/100x100 "Image link")](https://unsplash.com/)
+
+
+&nbsp;
+### Referenced (like a variable)
+
+```
+![alt text][logo]
+
+[logo]: img/lost.png "Referenced"
+```
+
+![alt text][logo]
+
+[logo]: img/lost.png "Referenced"
+
 
 
 &nbsp;
