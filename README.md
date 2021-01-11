@@ -1,6 +1,5 @@
 # Markdown Cheatsheet for VS Code
 
-
 ## Index
 - [Headings](#headings)
 - [Paragraph](#paragraph)
