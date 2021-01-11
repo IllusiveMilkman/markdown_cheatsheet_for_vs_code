@@ -14,6 +14,7 @@
 - [Tables](#tables)
 
 &nbsp;
+
 ## **Background**
 
 This cheatsheet can be used as a reference for writing Markdown in Visual Studio Code.
@@ -23,12 +24,14 @@ Recently, I started taking coding notes in VS Code, using Markdown.  It allows m
 Since the result of your notes is a file or set of files, you can then save however you prefer, like in cloud storage or even a private Github repository.
 
 ### Setup
+
 To use markdown in VS Code:
+
 1. Install the `markdownlint` extension.
 2. Create a new file and save with the `.md` extension.
 3. Open the Markdown Preview window:
-    + On Mac --> Press <kbd>&#8984;</kbd>+<kbd>K</kbd> then <kbd>V</kbd>
-    + On Windows --> <kbd>Ctrl</kbd>+<kbd>K</kbd> then <kbd>V</kbd>
+    - On Mac --> Press <kbd>&#8984;</kbd>+<kbd>K</kbd> then <kbd>V</kbd>
+    - On Windows --> <kbd>Ctrl</kbd>+<kbd>K</kbd> then <kbd>V</kbd>
 4. Start writing Markdown 😊
 
 
@@ -201,6 +204,23 @@ Below are examples of images generated from full URL paths or relative paths:
 
 ![random image](https://source.unsplash.com/random/100x100)
 
+But what if your source image is too large and you only want to set a specific size? In those cases you can write HTML directly to specify image sizes.  You can set height and width. Setting only a **single** height or width and keep the _aspect ratio_ of the original image:
+
+Original image at 300 x 300:
+
+```
+![random image](https://source.unsplash.com/random/300x300)
+```
+
+![random image](https://source.unsplash.com/random/300x300)
+
+Same image at but now source is scaled to 200 x 200:
+
+```html
+<img src="https://source.unsplash.com/random/300x300" width="200" height="200" alt="Resized image in HTML"/>
+```
+
+<img src="https://source.unsplash.com/random/300x300" width="200" height="200" alt="Resized image in HTML"/>
 
 &nbsp;
 ### An image link
