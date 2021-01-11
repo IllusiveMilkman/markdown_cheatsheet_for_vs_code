@@ -1,6 +1,7 @@
 # Markdown Cheatsheet for VS Code
 
 ## Index
+
 - [Headings](#headings)
 - [Paragraph](#paragraph)
 - [Emphasis](#emphasis)
@@ -11,7 +12,6 @@
 - [Other Elements](#other-elements)
 - [Blockquotes](#blockquotes)
 - [Tables](#tables)
-
 
 &nbsp;
 ## **Background**
