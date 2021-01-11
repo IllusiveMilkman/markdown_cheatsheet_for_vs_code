@@ -193,6 +193,17 @@ This link will also work - https://www.google.com.
 
 Below are examples of images generated from full URL paths or relative paths:
 
+&nbsp;
+### Displaying an image
+
+```
+![random image](https://source.unsplash.com/random/100x100)
+```
+
+![random image](https://source.unsplash.com/random/100x100)
+
+
+&nbsp;
 ### An image link
 
 ```
