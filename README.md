@@ -334,6 +334,25 @@ def fuel(🥛)
 end
 ```
 
+&nbsp;
+### Diff Syntax (Deleted and Added lines)
+
+````
+```diff
+def fuel(🥛)
+-  return 🍪
++  return 🍩
+end
+```
+````
+
+```diff
+def fuel(🥛)
+-  return 🍪
++  return 🍩
+end
+```
+
 
 &nbsp;
 ## **Other Elements**
